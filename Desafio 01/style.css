@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  }
+
+body{
+    background-color: #cdcfd1;
+    
+}
+
+header{
+    height: 250px;
+    width: 100%;
+    bottom: 1;
+    position:relative;
+    background: var(--linear);
+    margin-bottom: 100px;
+}
+
+.banner{
+    margin: 0 270px 0 270px;
+    padding-top: 40px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    padding-bottom: 70px;
+}
+
+ul a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+header li{
+    font-size: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--white);
+}
+
+.pesquisa{
+    display: flex;
+    border: none;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.267);
+    padding-right: 50px;
+}
+
+.pesquisa img{
+    width: 30px;
+    filter: invert(100%);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pesquisa input{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    color: var(--white);
+    outline: 0;
+    padding: 15px;
+    padding-right: 50px;
+    margin-left: -15px;
+}
+
+main{ 
+    margin: 0 270px;
+}
+
+article{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: var(--white);
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+article h2{
+    padding-bottom: 8px;
+    color: var(--title);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+article p {
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+}
